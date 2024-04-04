@@ -1,0 +1,19 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family:"Verdadeira", "Sans-serif";
+}
+header h1{
+         font-size:1.5rem;
+}
+
+main{
+      width: 800px;
+      height: 500px;
+      margin: 50px auto;
+}
+
+main p{
+        font-size: 1.2rem;
+}
