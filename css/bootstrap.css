@@ -202,11 +202,11 @@ sup {
 }
 
 a {
-  color: hsl(137, 36%, 48%);
+  color: hsl(0, 0%, 100%);
   text-decoration: underline;
 }
 a:hover {
-  color: hsl(137, 36%, 48%);
+  color: hsl(0, 0%, 83%);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {

@@ -3,17 +3,17 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: #d0c3c3;
     color: #fff;
 }
 
 /* CORES DE FUNDO */
 .bg-cor-1{
-    background-color: rgb(0, 0, 0);
+    background-color: #08364f;
 }
 
 .bg-cor-2{
-    background-color: #4ea566;
+    background-color: #476e82;
 }
 
 /* CORES PARA TEXTO */
@@ -41,7 +41,7 @@ body{
 }
 
 .navbar-brand:hover{
-    color: #4ea566;
+    color: #b8b384;
 }
 
 @media(min-width:768px){
@@ -126,4 +126,77 @@ body{
 .navbar-toggler{
     font-size:1.5em;
 
+}
+
+/* MEUS ESTILOS PARA O BANNER */
+
+#banners-container{
+    padding: 0;
+}
+
+.carousel-caption{
+    bottom: 5em;
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+}
+
+.carousel-caption h2{
+    font-size: 1.8em;
+}
+
+@media(min-width: 768px){
+    #slider .carousel-item,
+    #slider img{
+        height: 600px;
+    }
+}
+
+/* CSS dos mini-banners */
+
+#mini-banners-container{
+    margin-top: 3em;
+    z-index: 10;
+}
+
+#mini-banners-container .col-12{
+    z-index: 1;
+    height: 300px;
+    padding: 1.5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #mini-banners-container .col-12{
+        max-width: 30%;
+    }
+}
+
+#mini-banners-container .col-12 h2{
+    text-transform: uppercase;
+    max-width: 50%;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+#mini-banners-container .col-12 img{
+    height: 200px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#mini-banners-container .col-12 a{
+    font-weight: bold;
+    color: #08364f;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+#mini-banners-container .col-12 a:hover{
+    color: #fff;
 }
