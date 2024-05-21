@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #d0c3c3;
+    background-color: #e1dfdf;
     color: #fff;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 .cor-clara{
-    color: rgb(255, 255, 255);
+    color: rgb(239, 209, 209);
 }
 
 .cor-escura{
@@ -135,10 +135,10 @@ body{
 }
 
 .carousel-caption{
-    bottom: 5em;
-    padding: 1em;
-    left: 12%;
-    right: 12%;
+  bottom: 3em;
+  padding: 0em;
+  left: 23%;
+  right: 21%;
 }
 
 .carousel-caption h2{
