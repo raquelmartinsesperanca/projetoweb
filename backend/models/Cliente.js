@@ -12,3 +12,5 @@ new Schema({
 ))
 
 module.exports = Cliente
+
+
